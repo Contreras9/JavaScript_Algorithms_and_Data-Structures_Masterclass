@@ -1,7 +1,7 @@
-// Write a function called same, which accepts two arrays.
-// The function should return true if every value in the 
-// array has it's corresponding value squared in the second
-// array. The frequency of values must be the same.
+/* Write a function called same, which accepts two arrays.
+The function should return true if every value in the 
+array has it's corresponding value squared in the second
+array. The frequency of values must be the same. */
 
 
 //Naive Solution
@@ -52,9 +52,9 @@ function same2(arr1, arr2) {
 same2([1,2,3,2], [9,1,4,4])
 same2([1,2,3,2,5], [9,1,4,4,11])
 
-// So we had two arrays we break them down into objects that sort of classify
-// what's in those arrays and then we can compare those objects, and this allows
-// us to improve our code significantly.
+/* So we had two arrays we break them down into objects that sort of classify
+what's in those arrays and then we can compare those objects, and this allows
+us to improve our code significantly. */
 
 
 function validAnagram(str1, str2){
